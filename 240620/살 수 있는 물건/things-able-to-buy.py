@@ -1,7 +1,7 @@
-num=int(input())
-if num==3000:
-    print('book')
-elif num==1000:
-    print('mask')
-elif num<1000:
+money=int(input())
+if money<1000:
     print('no')
+elif 1000<=money<3000:
+    print('mask')
+else:
+    print('book')
