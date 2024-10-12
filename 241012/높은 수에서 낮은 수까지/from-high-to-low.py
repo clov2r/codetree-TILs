@@ -5,3 +5,5 @@ if a>b:
 elif a<b:
     for i in range(b, a-1, -1):
         print(i, end=' ')
+else:
+    print (a, b)
