@@ -1,0 +1,5 @@
+n=int(input())
+n_list=list(map(int, input().split()))
+n_list2=sorted(n_list)
+print(*n_list2)
+print(*n_list2[::-1])
