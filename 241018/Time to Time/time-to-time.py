@@ -1,2 +1,7 @@
 a, b, c, d=map(int, input().split())
-print((a*60+b)-(c*60+d))
+x=a*60+b
+y=c*60+d
+if x>y:
+    print(x-y)
+else:
+    print(y-x)
